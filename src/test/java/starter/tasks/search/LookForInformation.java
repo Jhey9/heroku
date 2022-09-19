@@ -1,4 +1,4 @@
-package starter.search;
+package starter.tasks.search;
 
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
