@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/play/playing_whit_alerts.feature",
         glue = "starter.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@alert3",
+        tags = "@alert1",
         publish = true
 
 )

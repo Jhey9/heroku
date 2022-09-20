@@ -2,6 +2,7 @@ package starter.interactions;
 
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
+
 import static starter.userinterface.IframeUserInterface.MENUITEM_EDIT;
 import static starter.userinterface.IframeUserInterface.SELECT_ALL;
 

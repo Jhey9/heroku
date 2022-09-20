@@ -18,7 +18,7 @@ public class Navigate {
     }
 
     public static Performable toThePage() {
-        return Task.where("{0} the page",
+        return Task.where("{0} go to the",
                 Open.url("https://the-internet.herokuapp.com")
         );
     }

@@ -2,11 +2,9 @@ package starter.tasks.iframe;
 
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.ui.Link;
-import net.serenitybdd.screenplay.waits.Wait;
 import starter.interactions.*;
-import starter.interactions.Open;
 
 import static starter.userinterface.IframeUserInterface.CONTENT_BODY;
 

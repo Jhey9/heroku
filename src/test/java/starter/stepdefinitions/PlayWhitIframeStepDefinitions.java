@@ -20,10 +20,11 @@ public class PlayWhitIframeStepDefinitions {
        actor.attemptsTo(Navigate.toIframe());
     }
 
-    @When("{actor} enter a iframe")
-    public void heEnterAIframe(Actor actor) {
-            actor.attemptsTo(ChangeStyle.toIframeletter());
+    @When("{actor} enter to the iframe")
+    public void heEnterToTheIframe(Actor actor) {
+        actor.attemptsTo(ChangeStyle.toIframeletter());
     }
+
     @Then("he see the {string} changed")
     public void heSeeTheChanged(String word) {
 

@@ -5,5 +5,5 @@ Feature: PLay whit Iframes
     @iframe1
     Example: Change iframe color text
       Given Jhey in browsing in the iframe
-      When he enter a iframe
+      When he enter to the iframe
       Then he see the 'Ejemplo' changed
